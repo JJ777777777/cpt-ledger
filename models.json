@@ -1,0 +1,73 @@
+{
+  "current": "qm-20260705-91dafda",
+  "versions": [
+    {
+      "version": "qm-20260703-cfcc224",
+      "created_at": "2026-07-03T02:55:13.864080+00:00",
+      "trained_through": "2026-07-01",
+      "freeze_status": "research",
+      "git_sha": "cfcc224",
+      "artifact_sha256": {
+        "h24/direction.txt": "36cef85f073f03c06f7ca312cf67a7caf8966901dfb95fd3d2d3eb5764aa92ac",
+        "h24/q10.txt": "9b7acb2de4481549b812cd5e391b7ef4f7ddfc43006a97b2b671131f4c99efaa",
+        "h24/q50.txt": "70be2a0d3c88b80f3c3bcc1859fc0e3057c449bfe4d1f8c5f48c98b560df0be0",
+        "h24/q90.txt": "6d864982d3e789aecdf462441bcfeea8505bde3c89aaace447d49763acab3c7d",
+        "h72/direction.txt": "3eb5ccc6a9442e432f480a330807239bc09e2ccd97cdf33c1a37106bf237b5c5",
+        "h72/q10.txt": "4a97826f5618d2ebf789be9885295e6e900ff096418862e211738a1876ea692c",
+        "h72/q50.txt": "96986dad777c2f805c606b509731857a24bce8ad0a3127b14e80226afa6b6a73",
+        "h72/q90.txt": "3fad94b44c15c74f4b74f2d814121037fc02b1c72268cb40b8e3dd8a8f632f3f"
+      }
+    },
+    {
+      "version": "qm-20260704-47a8b63",
+      "created_at": "2026-07-04T04:55:45.091795+00:00",
+      "trained_through": "2026-07-02",
+      "freeze_status": "research",
+      "git_sha": "47a8b63",
+      "artifact_sha256": {
+        "h24/direction.txt": "b51eedf2c0e6c8718ea0fc1f523852444d7df868a9123ccf5e2ae65d16f18141",
+        "h24/direction_1.txt": "38dec3662fbed4d4f0b884164d19744352d5770792b1bd9fb23a3e7bf9ac9b24",
+        "h24/direction_2.txt": "58b9670f4c4567ca77dc6ebc76e04097d5ebcb3d901f7deae8fbf8b2e29fa0f2",
+        "h24/direction_3.txt": "121a90045cca418253ce58e490349c6c0c3c9e660071961eaaf6c23c29b3e4ab",
+        "h24/direction_4.txt": "39e26144d1140e39c7a18822a83d1facb78d853635c5588c8443210e8324d88a",
+        "h24/q10.txt": "8d6fe8356fa20f13ab94f5628404ccd7e70528a037028132b368b9918be8f4aa",
+        "h24/q50.txt": "2a7717a682402d45c8f7b4ffb3a368da1951d34652fc254960014b46d5c1d589",
+        "h24/q90.txt": "ed758f4b92e16e0006747ab99cf1081a216ac7420dcce36ee6e84012a3b64288",
+        "h72/direction.txt": "d8d57577dab315ffbc2a6dfd192cc304ec965d5356c3226bc821c12dc68713b5",
+        "h72/direction_1.txt": "660fb40643b0d3fbc9d1779e65ff39f34381a0aff11cc41f857deb1e0f937e01",
+        "h72/direction_2.txt": "df0f16f0331a3a3d5505e572fa02dd9bf79f9c0eb74864b470bbf86fe43cfa63",
+        "h72/direction_3.txt": "b7ba9563d4ce0be1a3aa1132d41fc6f8fce6c4a12faf21eb6d39cb5ff12d5145",
+        "h72/direction_4.txt": "b8ef17ed57b9513d9e940ffa45c7d8d169fb3726ab919dd094bfa9f61fb04032",
+        "h72/q10.txt": "92b7200f066069f5beee8e82a1449023d3079ebc046845579a2b108b76471ffd",
+        "h72/q50.txt": "5b8965535d174ed31323c3b20cae83263958d2d0f3cdc25e65d6102f7da7ac93",
+        "h72/q90.txt": "fdcc62e79b343dec95c998adb599b144e2029a0b59ec8f0d1d4cd9f4db06a3b6"
+      }
+    },
+    {
+      "version": "qm-20260705-91dafda",
+      "created_at": "2026-07-05T18:11:50.426599+00:00",
+      "trained_through": "2026-07-03",
+      "freeze_status": "research",
+      "git_sha": "91dafda",
+      "artifact_sha256": {
+        "h24/direction.txt": "b6b1aaf02eb9509dbaf9cd2875181d300d244d431d8685dc1bdab245a348cbfa",
+        "h24/direction_1.txt": "30428034b0ecf092c3fb070c9008227037c2a8c75d98d4caacd84a2e2af8c324",
+        "h24/direction_2.txt": "738a78fb71dedc279a2e14ee5630d8a38f2c1581c3d156115bc7a6cd1f496af4",
+        "h24/direction_3.txt": "0d1fc2711f172796180ce2359f108ce3a7b59f8dd3e3851869e5746674a08333",
+        "h24/direction_4.txt": "6cc6954eff923d0cbe35df6fbfc0b8b00812bb3329cec35777404c462c6aeb15",
+        "h24/q10.txt": "5c531ed0cd3e96ddd04ca708a7c05a6900e575ce9fd78f9c987842ad26d133be",
+        "h24/q50.txt": "db0b5b732683f8299295c90ced15c8c762aacee630eb765157f90395a9547747",
+        "h24/q90.txt": "71a59b9860300095b36b934399c02fab8bb500e19ce1ecb06da7982502d0435c",
+        "h72/direction.txt": "65e796336a07a91df4cc974ecd8c991f50df3f36ef3c15560258b4d7c85542c7",
+        "h72/direction_1.txt": "d44f630c5aa6e86b4b7f4304240adb5bd5061505e173772976eb40347772e8ea",
+        "h72/direction_2.txt": "bd3ff33bd1008f89bf6c3b4da7bd1a83c33f9dfbe94e3b2c2c58cadba4c511da",
+        "h72/direction_3.txt": "d76bfaff16916bd04a33b3590530c81968a550db7ecd86e123242357d4903509",
+        "h72/direction_4.txt": "a7109b287679cd6954b32975a78863f9cdc7df3f67ed5faa16433715dcfd72a7",
+        "h72/q10.txt": "59955a137e48b2d117178f6e6f016d9266c9eda3dba5b79ae1b32f19c5d4a57a",
+        "h72/q50.txt": "09e15fdaff32d8fbe9ee87887db74c03a4e4da13d5804de3e67162bda8238ad6",
+        "h72/q90.txt": "3bb127d96b8d81c6ff616cd32afe3c443f515f527d428ccbc6eb30a13ecfa7c2"
+      }
+    }
+  ],
+  "note": "Every ledger prediction names its model_version. Artifact hashes prove version immutability; the training procedure is versioned in the (private) code repository and tagged at each declared freeze."
+}

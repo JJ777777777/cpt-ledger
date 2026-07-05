@@ -1,0 +1,122 @@
+{
+  "label_col": "fwd_log_ret",
+  "horizon_hours": 24,
+  "n_folds": 8,
+  "folds": [
+    {
+      "fold": 0,
+      "train_end": "2019-02-12",
+      "test_start": "2019-08-17",
+      "test_end": "2020-06-25",
+      "n_test": 628,
+      "brier": 0.6587796903914486,
+      "brier_coin_flip": 0.6666666666666669,
+      "hit_rate": 0.4140127388535032,
+      "hit_rate_persistence": 0.304140127388535,
+      "coverage": 0.7898089171974523,
+      "median_interval_width": 0.08780608045869279
+    },
+    {
+      "fold": 1,
+      "train_end": "2019-10-05",
+      "test_start": "2020-06-26",
+      "test_end": "2021-05-05",
+      "n_test": 628,
+      "brier": 0.6522569849241973,
+      "brier_coin_flip": 0.6666666666666669,
+      "hit_rate": 0.4124203821656051,
+      "hit_rate_persistence": 0.32643312101910826,
+      "coverage": 0.7945859872611465,
+      "median_interval_width": 0.09759168003216469
+    },
+    {
+      "fold": 2,
+      "train_end": "2020-05-28",
+      "test_start": "2021-05-06",
+      "test_end": "2022-03-15",
+      "n_test": 628,
+      "brier": 0.667537468571784,
+      "brier_coin_flip": 0.6666666666666669,
+      "hit_rate": 0.37579617834394907,
+      "hit_rate_persistence": 0.34076433121019106,
+      "coverage": 0.7738853503184714,
+      "median_interval_width": 0.09687765832719807
+    },
+    {
+      "fold": 3,
+      "train_end": "2021-01-18",
+      "test_start": "2022-03-16",
+      "test_end": "2023-01-23",
+      "n_test": 628,
+      "brier": 0.6670422201278022,
+      "brier_coin_flip": 0.6666666666666669,
+      "hit_rate": 0.3662420382165605,
+      "hit_rate_persistence": 0.34235668789808915,
+      "coverage": 0.8757961783439491,
+      "median_interval_width": 0.10120755045717542
+    },
+    {
+      "fold": 4,
+      "train_end": "2021-09-11",
+      "test_start": "2023-01-24",
+      "test_end": "2023-12-03",
+      "n_test": 628,
+      "brier": 0.5945424209908604,
+      "brier_coin_flip": 0.6666666666666669,
+      "hit_rate": 0.5477707006369427,
+      "hit_rate_persistence": 0.445859872611465,
+      "coverage": 0.8853503184713376,
+      "median_interval_width": 0.07529421448972932
+    },
+    {
+      "fold": 5,
+      "train_end": "2022-05-04",
+      "test_start": "2023-12-04",
+      "test_end": "2024-10-12",
+      "n_test": 628,
+      "brier": 0.6577762962430055,
+      "brier_coin_flip": 0.6666666666666669,
+      "hit_rate": 0.4442675159235669,
+      "hit_rate_persistence": 0.3232484076433121,
+      "coverage": 0.7691082802547771,
+      "median_interval_width": 0.065993418641284
+    },
+    {
+      "fold": 6,
+      "train_end": "2022-12-26",
+      "test_start": "2024-10-13",
+      "test_end": "2025-08-22",
+      "n_test": 628,
+      "brier": 0.6525248837342394,
+      "brier_coin_flip": 0.6666666666666669,
+      "hit_rate": 0.43789808917197454,
+      "hit_rate_persistence": 0.35987261146496813,
+      "coverage": 0.7770700636942676,
+      "median_interval_width": 0.070018614226733
+    },
+    {
+      "fold": 7,
+      "train_end": "2023-08-18",
+      "test_start": "2025-08-23",
+      "test_end": "2026-07-02",
+      "n_test": 628,
+      "brier": 0.6497018579420907,
+      "brier_coin_flip": 0.6666666666666669,
+      "hit_rate": 0.4140127388535032,
+      "hit_rate_persistence": 0.39171974522292996,
+      "coverage": 0.8200636942675159,
+      "median_interval_width": 0.06433565212684883
+    }
+  ],
+  "aggregate": {
+    "brier": 0.6500202278656785,
+    "brier_coin_flip": 0.6666666666666669,
+    "hit_rate": 0.4265525477707006,
+    "hit_rate_persistence": 0.35429936305732485,
+    "coverage": 0.8107085987261147
+  },
+  "freeze_quality_bar": {
+    "rule": "brier beats coin_flip in all folds",
+    "passed": false
+  }
+}

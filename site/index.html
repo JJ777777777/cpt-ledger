@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CPT — Prediction Track Record</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: Georgia, 'Times New Roman', serif; max-width: 880px;
+         margin: 2rem auto; padding: 0 1rem; line-height: 1.55; }
+  h1, h2, h3 { font-family: Helvetica, Arial, sans-serif; }
+  .banner { border: 2px solid #b8860b; background: rgba(184,134,11,.08);
+            padding: .8rem 1rem; border-radius: 6px; margin: 1rem 0; }
+  .research { border-color: #8a2be2; background: rgba(138,43,226,.07); }
+  .sim { border: 2px dashed #888; padding: 1rem; margin-top: 2.5rem;
+         border-radius: 6px; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+  th, td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid #ccc; }
+  .num { font-variant-numeric: tabular-nums; }
+  .muted { opacity: .72; font-size: .92em; }
+  .card { border: 1px solid #bbb; border-radius: 8px; padding: .9rem 1.1rem;
+          margin: .6rem 0; }
+  code { font-size: .9em; }
+  footer { margin-top: 3rem; font-size: .85em; opacity: .8;
+           border-top: 1px solid #ccc; padding-top: 1rem; }
+</style>
+</head>
+<body>
+<h1>Crypto Prediction Tool — Track Record</h1>
+<p class="muted">Generated 2026-07-05 18:14 UTC · every metric carries a 95% confidence
+interval · ledger is append-only, hash-chained, and anchored via OpenTimestamps.</p>
+
+
+<div class="banner"><strong>Burn-in period.</strong> The sample is too small for
+performance conclusions. Metrics below are shown for transparency, not as evidence
+of edge. No edge claim will be made before 600 scored predictions.</div>
+
+
+
+<div class="banner research"><strong>Research phase.</strong> The model is not yet
+frozen. Every prediction is logged, timestamped, and scored (see below), but the
+public track record starts at the declared model freeze. Research-phase results are
+quarantined precisely because research involves multiple testing.</div>
+
+
+<h2>Research-phase record (not the public track record)</h2>
+
+<table>
+<tr><th>Metric</th><th class="num">Value</th><th class="num">95% CI</th><th>vs baseline</th><th class="num">n</th></tr>
+<tr>
+  <td>Directional hit rate</td>
+  <td class="num">50%</td>
+  <td class="num">15% – 85%</td>
+  <td>not yet distinguishable from baseline (coin flip ≈ 33%)</td>
+  <td class="num">4</td>
+</tr>
+<tr>
+  <td>80% range coverage (CQR)</td>
+  <td class="num">75%</td>
+  <td class="num">30% – 95%</td>
+  <td>not yet distinguishable from baseline (target 80%)</td>
+  <td class="num">4</td>
+</tr>
+<tr>
+  <td>Brier score (lower is better)</td>
+  <td class="num">0.6987</td>
+  <td class="num">0.5213 – 0.8761</td>
+  <td>not yet distinguishable from baseline (coin flip 0.6667)</td>
+  <td class="num">4</td>
+</tr>
+</table>
+<p class="muted">0 stand-aside day(s) scored via counterfactual and
+excluded from the directional hit rate.</p>
+
+
+<h2>Calibration</h2>
+
+<p>Bucket-level calibration activates only when every confidence bucket holds at
+least 30 samples. Until then the aggregate Brier score above is the
+calibration measure<span class="muted"> — burn-in labeled</span>.</p>
+
+
+<h2>Latest predictions</h2>
+
+<div class="card">
+  <strong>BTC</strong> · 2026-07-05 close → next 24h
+  <br>
+  Call: <strong>flat</strong> (46% calibrated) ·
+  80% range <span class="num">$61,707 – $65,005</span><br>
+  <span class="muted">model qm-20260704-47a8b63 · research ·
+  feature snapshot <code>9ca6ac66784c…</code> ·
+  record <code>3d18179c7251…</code></span>
+</div>
+
+<div class="card">
+  <strong>ETH</strong> · 2026-07-05 close → next 24h
+  <br>
+  Call: <strong>flat</strong> (40% calibrated) ·
+  80% range <span class="num">$1,736 – $1,849</span><br>
+  <span class="muted">model qm-20260704-47a8b63 · research ·
+  feature snapshot <code>11e7c1cc8eac…</code> ·
+  record <code>eda8c016d1b4…</code></span>
+</div>
+
+
+<h2>Process integrity</h2>
+<table>
+<tr><th>Check</th><th>Status</th></tr>
+<tr><td>Ledger hash chain</td><td>intact</td></tr>
+<tr><td>Records in ledger</td><td class="num">19</td></tr>
+<tr><td>Predictions emitted / scored</td><td class="num">12 / 4</td></tr>
+<tr><td>Missed-run records (visible gaps)</td><td class="num">0</td></tr>
+<tr><td>Briefings blocked by validation gate</td><td class="num">1</td></tr>
+</table>
+
+
+<div class="sim">
+<h2>Simulated: walk-forward validation</h2>
+<p><strong>Simulated on historical data. Not the live track record.</strong>
+Purged/embargoed walk-forward over 8 folds, horizon 24h.</p>
+<table>
+<tr><th>Metric</th><th class="num">Model</th><th class="num">Baseline</th></tr>
+<tr><td>Brier</td><td class="num">0.6508</td>
+    <td class="num">0.6667 (coin flip)</td></tr>
+<tr><td>Hit rate</td><td class="num">43%</td>
+    <td class="num">35% (persistence)</td></tr>
+<tr><td>80% coverage</td><td class="num">82%</td>
+    <td class="num">80% (target)</td></tr>
+</table>
+<p>Freeze quality bar (brier beats coin_flip in all folds):
+<strong>NOT MET</strong></p>
+</div>
+
+
+<h2>Verify this ledger yourself</h2>
+<p class="muted">The full ledger is <code>ledger/ledger.jsonl</code> — one JSON record per
+line, each carrying <code>prev_sha256</code> and <code>record_sha256</code>. Recompute the
+chain, then check the OpenTimestamps proofs in <code>ledger/proofs/</code>
+(<code>ots verify &lt;manifest&gt;.ots</code>). Each prediction names its model version and
+feature snapshot hash; <code>models.json</code> pins every version's artifact hashes.</p>
+
+<footer>Informational and educational only - not financial advice. Past performance does not indicate future results.</footer>
+</body>
+</html>
