@@ -1,5 +1,5 @@
 {
-  "current": "qm-20260801-e56d964",
+  "current": "qm-20260901-0ad4aec",
   "versions": [
     {
       "version": "qm-20260703-cfcc224",
@@ -91,6 +91,31 @@
         "h72/q10.txt": "ca969e7c3b1ae0e11758b4cd4e6318c753b085b172529144eab73d68834d2fac",
         "h72/q50.txt": "a19d44013b1781407e22bfe36ee0833a3ef5f5543f2deafdb286954c79e63e3d",
         "h72/q90.txt": "32f1e833b7e20e6d48eb9fe7a9652baec011ebda6443829314f7126e7e167017"
+      }
+    },
+    {
+      "version": "qm-20260901-0ad4aec",
+      "created_at": "2026-09-01T06:36:36.643882+00:00",
+      "trained_through": "2026-08-30",
+      "freeze_status": "research",
+      "git_sha": "0ad4aec",
+      "artifact_sha256": {
+        "h24/direction.txt": "ce8b29df5eddd5ab6ee364b05076bb47782e389acabfddcc7eef8b0c888ad550",
+        "h24/direction_1.txt": "5ca05a45a384606947f3ec618909cef702b1bb905efa37d176c1457e122e134e",
+        "h24/direction_2.txt": "a0c8940fd346880ab44c570f396b8449cdcb3ef5a88fce284896713e69ff5aa6",
+        "h24/direction_3.txt": "82455e20a77413ab2017c11cb47c0de403be0ac7477524be7faebea83635b4e4",
+        "h24/direction_4.txt": "ec674785fb8168c7a123d83e26ca9387349512dc98e63771eac97f860a518a20",
+        "h24/q10.txt": "936a2430d4a4fbe38ea1bb047e27de81d3dfe9c5ee2a1f7bfe314bf5347ffef4",
+        "h24/q50.txt": "e426ae8d5e0816ad96ef51b3f3e333456d0749e55ccb5393b8c104984f3948c0",
+        "h24/q90.txt": "28b885f097b44e60f359c40ea8e75d36494593fe7ae33e2d501642c29dff5b05",
+        "h72/direction.txt": "8bb5897962d5bfc17b3dcb9353d7d1cadaf72eb8046eb88d8b298008726362ff",
+        "h72/direction_1.txt": "9afea04f7389c1956a8a64fd439432f430010a87b79c8af2f44da20af22af8e1",
+        "h72/direction_2.txt": "7c2741819d78aa725812bab6105b16f727f43b1be3d5b748875cdcae36227b3d",
+        "h72/direction_3.txt": "cc716b549723bc2b4ab0c3e81d0ee5a03a1b469cae404de2f048b965be67698d",
+        "h72/direction_4.txt": "1dc16c9750fca77ed787823c501d3bec529e11ef599f7c89a5757f43b77cbac5",
+        "h72/q10.txt": "b9e1e3115ebe5ad33368c52c7ae791b1be4aa5e42f1b9c723284645ffabc4714",
+        "h72/q50.txt": "eeb5d8cd61e536e696b340de16eba0fd25da82d1fa7662e0ad81292845c0c175",
+        "h72/q90.txt": "fc3486cf1d4cc48f848f6174fd033542963e10a990c1662d9df2c2908e39095a"
       }
     }
   ],
